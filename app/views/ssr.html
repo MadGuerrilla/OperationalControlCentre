@@ -1,0 +1,29 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-full">
+            <small><a href="/">&lt; Network view</a></small>&nbsp;&nbsp;&nbsp;&nbsp;<small>&lt; <a href="#">Overview - Bangor</a></small>
+            <h1 class="heading-large">Site Summary Return - Bangor</h1>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-full">
+            <div id="messages">
+
+            </div>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-full">
+            <label for="datepicker">Enter returns for the period</label>
+            <br />
+            <input type="text" id="datepicker" class="week-picker">
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-full">
+            {% include "macros/ssr_builder.html" %}
+        </div>
+    </div>
+</main>
+{% endblock %}

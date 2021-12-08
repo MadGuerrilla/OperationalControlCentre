@@ -1,0 +1,68 @@
+{
+    "dates": {
+        "week1": ["1474848000", "1475366400"],
+        "week2": ["1474243200", "1474761600"],
+        "week3": ["1475020800", "1474156800"],
+        "week4": ["1473033600", "1473552000"]
+    },
+    "tables": {
+        "Case managers - availability": {
+            "Full Service": {
+                "week1": "37.61",
+                "week2": "36.22",
+                "week3": "35.12",
+                "week4": "36.45"
+            },
+            "Transfers (live to FS)": {
+                "week1": "18.12",
+                "week2": "18.56",
+                "week3": "17.33",
+                "week4": "17.25"
+            },
+            "Appointments": {
+                "week1": "16.98",
+                "week2": "16.81",
+                "week3": "16.98",
+                "week4": "15.54"
+            }
+        },
+        "Case managers - deductions": {
+            "Training": {
+                "week1": "11.45",
+                "week2": "11.67",
+                "week3": "10.65",
+                "week4": "11.89"
+            },
+            "Consolidation": {
+                "week1": "2.15",
+                "week2": "2.43",
+                "week3": "2.15",
+                "week4": "2.65"
+            },
+            "Detached duty": {
+                "week1": "3.41",
+                "week2": "3.67",
+                "week3": "3.35",
+                "week4": "3.10"
+            },
+            "Temporary Duties Addition": {
+                "week1": "1.52",
+                "week2": "1.67",
+                "week3": "1.67",
+                "week4": "2.10"
+            },
+            "Part Year": {
+                "week1": "1.05",
+                "week2": "1.56",
+                "week3": "1.45",
+                "week4": "1.23"
+            },
+            "Mentoring": {
+                "week1": "1.04",
+                "week2": "2.15",
+                "week3": "2.45",
+                "week4": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "tables": {
+        "0": {
+            "Case managers - availability": [{
+                "Total available": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        },
+        "1": {
+            "Decision makers - availability": [{
+                "Overall total": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        },
+        "2": {
+            "Agents on detached duty": [{
+                "Case managers": {
+                    "notes": "",
+                    "value": ""
+                },
+                "Decision makers": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        },
+        "3": {
+            "Part year agent - losses": [{
+                "Case managers": {
+                    "notes": "",
+                    "value": ""
+                },
+                "Decision makers": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        },
+        "4": {
+            "Long term TDA": [{
+                "Case managers": {
+                    "notes": "",
+                    "value": ""
+                },
+                "Decision makers": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        },
+        "5": {
+            "Service Centre mentors": [{
+                "Case managers": {
+                    "notes": "",
+                    "value": ""
+                },
+                "Decision makers": {
+                    "notes": "",
+                    "value": ""
+                }
+            }]
+        }
+    }
+}

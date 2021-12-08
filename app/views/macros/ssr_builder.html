@@ -1,0 +1,37 @@
+{% import "tablestructure/ssr.html" as tables %}{% set tables = tables.tables[0].tables %} {% set data = pageData %} {{data}}
+<div id="SSR" data-id="{{data._id}}" data-weekCommencing="{{weekCommencing.weekCommencing}}" data-timestampEnding="{{weekCommencing.timestampEnding}}">
+    <form action="/save/ssr" method="post">
+        <input type="hidden" name="serviceCentre" value="bangor">
+        <input type="hidden" name="weekCommencing" value="{{weekCommencing.timestampStarting}}"> {% for item in tables %}
+        <table class="ssr border top" data-table-id="{{item.name | capitalize | replace(' ', '') }}" data-table="{{ item.name }}">
+            <thead>
+                <tr>
+                    <th colspan="5">
+                        <h2 class="heading-medium">{{ item.name }}</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="col"></td>
+                    {% for columnheader in item.columnheaders %}
+                    <td scope="col">{{ columnheader }}</td>
+                    {% endfor %}
+                </tr>
+
+                {% for element in item.elements %}
+                <tr>
+                    <th scope="row"><label for="{{item.name | capitalize  | replace(' ', '') }}{{ element.rowlabel | capitalize  | replace(' ', '')}}_value">{{ element.rowlabel }}</label></th>
+                    {% for field in element.fields %}
+                    <td><input id="{{item.name | capitalize  | replace(' ', '')}}{{ element.rowlabel | capitalize  | replace(' ', '')}}_{{ field.name }}" name="{{item.name | capitalize | replace(' ', '')}}{{ element.rowlabel | capitalize  | replace(' ', '')}}_{{ field.name }}"
+                            {% if field.class !='' %} class="{% for class in field.class %}{{ class }} {% endfor %}" {% endif %} type="{{ field.type }}" data-service="{{ element.rowlabel }}" data-tableparent="{{ item.name }}" data-type="{{ field.name }}"
+                            value="{{ field.value }}" placeholder="{{ field.placeholdervalue }}"></td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+        {% endfor %}
+        <input class="button" data-target="#SSR" type="submit" value="Save and continue">
+    </form>
+</div>

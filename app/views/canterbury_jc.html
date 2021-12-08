@@ -1,0 +1,204 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-half">
+            <div id="map"></div>
+        </div>
+        <div class="column-half">
+            <div class="grid-row">
+                <br />
+                <small><a href="/">&lt; Network view</a></small>&nbsp;&nbsp;&nbsp;&nbsp;<small><a href="/canterbury">&lt; Overview</a></small>
+            </div>
+            <div class="grid-row">
+                <div class="column-half">
+                    <h1 class="heading-medium">Canterbury</h1>
+                    <h2 class="heading-medium">Jobcentres linked</h2>
+                </div>
+                <div class="column-half">
+                    <small><span>Timeframe <a href="#">[change]</a></span></small>
+                    <h2 class="heading-small">September 2016</h2>
+                </div>
+            </div>
+            <div class="grid-row border top">
+                <table class="job-centres">
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                Name
+                            </th>
+                            <th scope="col" class="data-title">
+                                Region
+                            </th>
+                            <th scope="col" class="data-title">
+                                Caseload
+                            </th>
+                            <th scope="col" class="data-title">
+                                % share of national load
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Bridgwater
+                            </td>
+                            <td class="data-value">
+                                SW
+                            </td>
+                            <td class="data-value">
+                                1700
+                            </td>
+                            <td class="data-value">
+                                7.5%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Hammersmith
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                700
+                            </td>
+                            <td class="data-value">
+                                2.9%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Inverness
+                            </td>
+                            <td class="data-value">
+                                Scotland
+                            </td>
+                            <td class="data-value">
+                                2200
+                            </td>
+                            <td class="data-value">
+                                3.8%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                London Bridge
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                2700
+                            </td>
+                            <td class="data-value">
+                                4.9%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Lowestoft
+                            </td>
+                            <td class="data-value">
+                                East
+                            </td>
+                            <td class="data-value">
+                                3400
+                            </td>
+                            <td class="data-value">
+                                7.5%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Purley
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                1800
+                            </td>
+                            <td class="data-value">
+                                3.7%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Sutton
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                4100
+                            </td>
+                            <td class="data-value">
+                                8.1%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Thornton Heath
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                1700
+                            </td>
+                            <td class="data-value">
+                                5.5%
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-row">
+                <table class="job-centres">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                <strong>Coming online soon</strong>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                Name
+                            </th>
+                            <th scope="col" class="data-title">
+                                Region
+                            </th>
+                            <th scope="col" class="data-title">
+                                Go-live date
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Kennington Park
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                October 21st
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Minehead
+                            </td>
+                            <td class="data-value">
+                                SW
+                            </td>
+                            <td class="data-value">
+                                November 13th
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

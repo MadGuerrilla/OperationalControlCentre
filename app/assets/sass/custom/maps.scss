@@ -1,0 +1,25 @@
+#map {
+    height: 100%;
+    width: 100%;
+    height: 650px;
+    margin-top: 35px;
+    border: 1px solid #bfc0c3;
+}
+
+a[href^="http://maps.google.com/maps"] {
+    display: none !important;
+}
+
+a[href^="https://maps.google.com/maps"] {
+    display: none !important;
+}
+
+.gm-style-cc,
+.gmnoprint a,
+.gmnoprint span {
+    display: none;
+}
+
+.gmnoprint div {
+    background: none !important;
+}

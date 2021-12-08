@@ -1,0 +1,48 @@
+{
+    "1476057600": {
+        "dates": ["1476057600", "1476576000"],
+        "tables": {
+            "0": {
+                "Case managers - availability": [{
+                    "Total available": {
+                        "notes": "test",
+                        "value": ""
+                    }
+                }, {
+                    "Telephony": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }, {
+                    "Full service": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }, {
+                    "Digital appointments": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }, {
+                    "Live to digital (transfers)": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }, {
+                    "Non-Telephony": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }]
+            },
+            "1": {
+                "Decision makers - availability": [{
+                    "Overall total": {
+                        "notes": "",
+                        "value": ""
+                    }
+                }]
+            }
+        }
+    }
+}

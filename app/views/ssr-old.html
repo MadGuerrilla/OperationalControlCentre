@@ -1,0 +1,74 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-full">
+            <small><a href="/">&lt; Network view</a></small>&nbsp;&nbsp;&nbsp;&nbsp;<small>&lt; <a href="#">Overview - Bangor</a></small>
+            <h1 class="heading-large">Site Skills Return - Bangor</h1>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-full">
+            <label for="datepicker">Enter returns for the period</label>
+            <input type="text" id="datepicker" class="week-picker">
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="column-full">
+            <div id="SSR">
+            </div>
+        </div>
+    </div>
+    <div class="grid-row hide">
+        <table class="ssr">
+            <thead>
+                <tr>
+                    <th colspan="5">
+                        <h2 class="heading-medium">Case managers - availability</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" colspan="5">
+                        This week
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col" class="data-title">
+                        This week
+                    </th>
+                    <th scope="col" class="data-title">
+                        31/09 - 06/10
+                    </th>
+                    <th scope="col" class="data-title">
+                        22/10 - 29/10
+                    </th>
+                    <th scope="col" class="data-title">
+                        14/10 - 21/10
+                    </th>
+                    <th scope="col" class="data-title">
+                        14/10 - 21/10
+                    </th>
+                </tr>
+                <tr>
+                    <td class="data-value" class="data-title">
+                        <input type="text" name="thisweek1">
+                    </td>
+                    <td class="data-value">
+                        37.61
+                    </td>
+                    <td class="data-value">
+                        36.22
+                    </td>
+                    <td class="data-value">
+                        35.12
+                    </td>
+                    <td class="data-value">
+                        36.45
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+{% endblock %}

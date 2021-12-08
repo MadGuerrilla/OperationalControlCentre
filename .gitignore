@@ -1,0 +1,8 @@
+node_modules/
+.sass-cache
+npm-debug.log
+spec/stylesheets
+public/
+mongodb/
+data/
+public/

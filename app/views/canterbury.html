@@ -1,0 +1,162 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-half">
+            <div id="map"></div>
+        </div>
+        <div class="column-half">
+            <div class="grid-row hide">
+                <div class="column-half">
+                    <small><a href="/">&lt; Network view</a></small>
+                    <h1 class="heading-large">National view</h1>
+                </div>
+                <div class="column-half">
+                    <small><span>Timeframe <a href="#">[change]</a></span></small>
+                    <h2 class="heading-small">September</h2>
+                </div>
+            </div>
+            <div class="grid-row">
+                <table class="data-stats">
+                    <thead>
+                        <tr>
+                            <th colspan="2">
+                                <br />
+                                <small><a href="/">&lt; Network view</a></small>
+                                <h1 class="heading-large">Canterbury</h1>
+                                <small><span>Timeframe <a href="#">[change]</a></span></small>
+                                <h2 class="heading-small">September 1st to 8th, 2016</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="border top">
+                        <tr>
+                            <td colspan="3">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th class="data-title">
+                                                Jobcentres linked
+                                            </th>
+                                            <th class="data-title">
+                                                Caseload
+                                            </th>
+                                            <th class="data-title">
+                                                Available staff
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="data-value">
+                                                8
+                                            </td>
+                                            <td class="data-value">
+                                                13,253
+                                            </td>
+                                            <td class="data-value">
+                                                83%
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="data-title">
+                                                Claims per FTE
+                                            </th>
+                                            <th class="data-title">
+                                                Shrinkage
+                                            </th>
+                                            <th class="data-title">
+                                                Net FTE
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="data-value">
+                                                82
+                                            </td>
+                                            <td class="data-value">
+                                                17%
+                                            </td>
+                                            <td class="data-value">
+                                                36.12
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-row border top">
+                <table class="case-management">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                To-dos
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="data-title">
+                                &nbsp;
+                            </th>
+                            <th scope="col" class="data-title">
+                                Available
+                            </th>
+                            <th scope="col" class="data-title">
+                                Required
+                            </th>
+                            <th scope="col" class="data-title">
+                                Difference
+                            </th>
+                        </tr>
+
+                        <tr class="positive">
+                            <th scope="row" class="data-title">
+                                Case Managers
+                            </th>
+                            <td class="data-value">
+                                36
+                            </td>
+                            <td class="data-value">
+                                26
+                            </td>
+                            <td class="data-value difference">
+                                10
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-row border top">
+                <table class="telephony">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                Telephony
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="data-title">
+                                &nbsp;
+                            </th>
+                            <th scope="col" class="data-title">
+                                Available
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" class="data-title">
+                                Telephony staff
+                            </th>
+                            <td class="data-value">
+                                10
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

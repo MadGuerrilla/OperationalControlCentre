@@ -1,0 +1,284 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-half">
+            <div id="map"></div>
+        </div>
+        <div class="column-half">
+            <div class="grid-row">
+                <div>
+                    <h1 class="heading-medium">Jobcentre to service centre alignment</h1>
+                </div>
+            </div>
+            <div class="grid-row border top">
+                <table class="job-centres">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                <h2 class="heading-medium">Not aligned</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                Name
+                            </th>
+                            <th scope="col" class="data-title">
+                                Go-live date
+                            </th>
+                            <th scope="col" class="data-title">
+                                Region
+                            </th>
+                            <th scope="col" class="data-title">
+                                Suggested SC
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Corby
+                            </td>
+                            <td class="data-value">
+                                22/10/2016
+                            </td>
+                            <td class="data-value">
+                                Central
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall" selected="selected">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Southampton
+                            </td>
+                            <td class="data-value">
+                                08/10/2016
+                            </td>
+                            <td class="data-value">
+                                South East
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell" selected="selected">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Newcastle East
+                            </td>
+                            <td class="data-value">
+                                22/10/2016
+                            </td>
+                            <td class="data-value">
+                                North East
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough" selected="selected">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Warrington
+                            </td>
+                            <td class="data-value">
+                                08/11/2016
+                            </td>
+                            <td class="data-value">
+                                North West
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton" selected="selected">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Poplar
+                            </td>
+                            <td class="data-value">
+                                22/11/2016
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury" selected="selected">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Hinckley
+                            </td>
+                            <td class="data-value">
+                                08/12/2016
+                            </td>
+                            <td class="data-value">
+                                Central
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast" selected="selected">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <input class="button" type="submit" value="Confirm alignments">
+                <br />
+            </div>
+            <div class="grid-row">
+                <table class="job-centres">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                <h2 class="heading-medium">Aligned</h2></h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                Name
+                            </th>
+                            <th scope="col" class="data-title">
+                                Region
+                            </th>
+                            <th scope="col" class="data-title">
+                                Current caseload
+                            </th>
+                            <th scope="col" class="data-title">
+                                Current SC
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Sutton
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                4123
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury" selected="selected">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Croydon
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                5190
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough" selected="selected">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                London
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                2474
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury" selected="selected">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Hounslow
+                            </td>
+                            <td class="data-value">
+                                London
+                            </td>
+                            <td class="data-value">
+                                5690
+                            </td>
+                            <td class="data-value">
+                                <select>
+                                    <option value="Walsall">Walsall</option>
+                                    <option value="St Austell">St Austell</option>
+                                    <option value="Middlesbrough">Middlesbrough</option>
+                                    <option value="Bolton">Bolton</option>
+                                    <option value="Canterbury" selected="selected">Canterbury</option>
+                                    <option value="Belfast">Belfast</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

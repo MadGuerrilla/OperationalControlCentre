@@ -1,0 +1,193 @@
+{
+    "tables": [{
+        "name": "Case managers",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Total",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "name": "Decision makers",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Overall",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "name": "Agents on detached duty",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Case managers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }, {
+            "rowlabel": "Decision makers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "name": "Part year adjustments",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Case managers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }, {
+            "rowlabel": "Decision makers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "name": "Agents on TDA",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Case managers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }, {
+            "rowlabel": "Decision makers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "name": "Service Centre mentors",
+        "columnheaders": ["", "Notes"],
+        "elements": [{
+            "rowlabel": "Case managers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }, {
+            "rowlabel": "Decision makers",
+            "fields": [{
+                "name": "value",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }, {
+                "name": "notes",
+                "type": "text",
+                "class": [],
+                "value": "",
+                "placeholdervalue": ""
+            }]
+        }]
+    }, {
+        "rowlabel": "Decision makers",
+        "fields": [{
+            "name": "value",
+            "type": "text",
+            "class": [],
+            "value": "",
+            "placeholdervalue": ""
+        }, {
+            "name": "notes",
+            "type": "text",
+            "class": [],
+            "value": "",
+            "placeholdervalue": ""
+        }]
+    }]
+}]
+}

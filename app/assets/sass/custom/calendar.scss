@@ -1,0 +1,103 @@
+.ui-datepicker {
+    padding-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(80,80,80,.12),0 4px 6px rgba(80,80,80,.1);
+
+    table,
+    td,
+    th,
+    tr {
+        padding: 0;
+    }
+    background-color: $white;
+    border: 1px solid $grey-4;
+
+    .ui-datepicker-next,
+    .ui-datepicker-prev {
+        //  display: none;
+    }
+
+    .ui-datepicker-title {
+        text-align: center;
+        background-color: $turquoise;
+        padding: 10px 0;
+
+        .ui-datepicker-month,
+        .ui-datepicker-year {
+            font-size: 20px;
+            font-weight: normal;
+            color: $white;
+        }
+    }
+
+    .ui-datepicker-calendar {
+        thead {
+            tr {
+                th {
+                    span {
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border-bottom: 0;
+                margin-bottom: 3px;
+
+                &:hover {
+                    outline: 3px solid $focus-colour;
+
+                    td {
+                        background-color: lighten($focus-colour, 30%);
+                    }
+                }
+
+                &.ui-state-active,
+                &:focus {
+                    background-color: $focus-colour;
+
+                    td {
+                        background-color: $focus-colour;
+
+                        &.ui-datepicker-today {
+                            background-color: darken($focus-colour, 20%);
+                        }
+
+                        a {
+                            color: $text-colour;
+                        }
+                    }
+                }
+
+                td {
+                    font-size: 14px;
+                    padding: 0;
+
+                    a {
+                        padding: 13px 15px;
+                        display: inline-block;
+                    }
+
+                    &.ui-datepicker-today {
+                        background-color: $panel-colour;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: $grey-1;
+                        padding: 10px 13px;
+                    }
+                }
+            }
+        }
+
+        td,
+        th {
+            text-align: center;
+            padding: 14px 4px;
+            border: 0;
+        }
+    }
+}

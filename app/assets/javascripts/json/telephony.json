@@ -1,0 +1,22 @@
+{
+    "UC Full Service222": [{
+        "Available": 46,
+        "Required": 80,
+        "Difference": -34
+    }],
+    "UC Full Servicexxx": [{
+        "Available": 46,
+        "Required": 80,
+        "Difference": -34
+    }],
+    "Digital appointments": [{
+        "Available": 14,
+        "Required": 14,
+        "Difference": 0
+    }],
+    "Live to Digital transfers": [{
+        "Available": 6,
+        "Required": 6,
+        "Difference": 0
+    }]
+}

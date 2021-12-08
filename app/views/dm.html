@@ -1,0 +1,208 @@
+{% extends "layout.html" %} {% block page_title %} GOV.UK prototype kit {% endblock %} {% block content %}
+<main id="content" role="main">
+    <div class="grid-row">
+        <div class="column-half pad30">
+            <div class="grid-row">
+                <small><a href="/">&lt; Network view</a></small>
+                <table class="data-stats">
+                    <thead class=" ">
+                        <tr>
+                            <th colspan="2">
+                                <h1 class="heading-large">Decision makers</h1>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="border top">
+                        <tr>
+                            <td colspan="3">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th class="data-title">
+                                                Gross FTE avail.
+                                            </th>
+                                            <th class="data-title">
+                                                Network req.
+                                            </th>
+                                            <th class="data-title">
+                                                Difference
+                                            </th>
+                                        </tr>
+                                        <tr class="negative">
+                                            <td class="data-value">
+                                                32.5
+                                            </td>
+                                            <td class="data-value">
+                                                41.75
+                                            </td>
+                                            <td class="data-value difference">
+                                                9.25
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid-row border top">
+                <table class="staff-capcity">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                Staff capacity
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                &nbsp;
+                            </th>
+                            <th scope="col" class="data-title">
+                                Available
+                            </th>
+                            <th scope="col" class="data-title">
+                                Shrinkage
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" class="data-title">
+                                Total staff capacity
+                            </th>
+                            <td class="data-value">
+                                22
+                            </td>
+                            <td class="data-value">
+                                7
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="column-half pad30" style="padding-top: 18px;">
+            <small><span>Timeframe <a href="#">[change]</a></span></small>
+            <h2 class="heading-medium">September 1st to Oct 1st, 2016</h2>
+            <div class="grid-row border top">
+                <table class="job-centres">
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                <strong>Types of outstanding to-dos</strong>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="data-title">
+                                Name
+                            </th>
+                            <th scope="col" class="data-title">
+                                05/09
+                            </th>
+                            <th scope="col" class="data-title">
+                                12/09
+                            </th>
+                            <th scope="col" class="data-title">
+                                19/09
+                            </th>
+                            <th scope="col" class="data-title">
+                                26/09
+                            </th>
+                        </tr>
+                        <tr class="negative">
+                            <td class="data-value" class="data-title">
+                                Backdating
+                            </td>
+                            <td class="data-value">
+                                753
+                            </td>
+                            <td class="data-value">
+                                808
+                            </td>
+                            <td class="data-value">
+                                862
+                            </td>
+                            <td class="data-value">
+                                937
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Entitlement
+                            </td>
+                            <td class="data-value">
+                                340
+                            </td>
+                            <td class="data-value">
+                                321
+                            </td>
+                            <td class="data-value">
+                                255
+                            </td>
+                            <td class="data-value">
+                                250
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Sanctions
+                            </td>
+                            <td class="data-value">
+                                450
+                            </td>
+                            <td class="data-value">
+                                422
+                            </td>
+                            <td class="data-value">
+                                430
+                            </td>
+                            <td class="data-value">
+                                410
+                            </td>
+                        </tr>
+                        <tr class="negative">
+                            <td class="data-value" class="data-title">
+                                WCA
+                            </td>
+                            <td class="data-value">
+                                190
+                            </td>
+                            <td class="data-value">
+                                195
+                            </td>
+                            <td class="data-value">
+                                237
+                            </td>
+                            <td class="data-value">
+                                270
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="data-value" class="data-title">
+                                Young Person
+                            </td>
+                            <td class="data-value">
+                                45
+                            </td>
+                            <td class="data-value">
+                                47
+                            </td>
+                            <td class="data-value">
+                                32
+                            </td>
+                            <td class="data-value">
+                                28
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!-- Javascript -->
+<script src="//d3js.org/d3.v4.min.js "></script>
+<script src="/public/javascripts/details.polyfill.js "></script>
+<script src="/public/javascripts/jquery-1.11.3.js "></script>
+<script src="/public/javascripts/govuk/selection-buttons.js "></script>
+<script src="/public/javascripts/govuk/shim-links-with-button-role.js "></script>
+<script src="/public/javascripts/govuk/show-hide-content.js "></script>
+</script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+<script src="/public/javascripts/application.js "></script>
+{% if js %} {% for js in js %}
+<script src="/public/javascripts/{{js}}.js "></script>
+{% if js == 'map' %}
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoVQ85Q46bdBGoxMSy07C4ebJzLO_3MlU&callback=initMap">
+</script>
+{% endif %} {% endfor %} {% endif %}
+<!-- <link href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" /> -->

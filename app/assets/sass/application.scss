@@ -1,0 +1,93 @@
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/"; // Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
+@import 'govuk-elements'; // Take a look at in app/assets/sass/patterns/ to see which files are imported.
+@import 'patterns/check-your-answers'; // Related items
+// (These styles will be moved to GOV.UK elements, duplicating here for now.)
+$chevron-size: 12px;
+$chevron-sharpness: 7px; // thiness (lower value = thinner apperence)
+// Add percentage of white to a color
+@function tint($color, $percent) {
+     @return mix(white, $color, 100 - $percent);
+}
+// Add percentage of black to a color
+@function shade($color, $percent) {
+     @return mix(black, $color, 100 - $percent);
+}
+@import 'custom/tables';
+@import 'custom/maps';
+@import 'custom/calendar';
+
+#content,
+#footer .footer-wrapper,
+#global-cookie-message p,
+#global-header-bar {
+    max-width: 1024px;
+}
+
+.govuk-related-items {
+    margin-top: $gutter;
+    border-top: 10px solid $govuk-blue;
+    padding-top: 5px;
+
+    .heading-medium {
+        margin-top: 0.3em;
+        margin-bottom: 0.5em;
+    }
+
+    li {
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+}
+
+.hide {
+    display: none!important;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.heading-medium {
+    margin-top: 5px;
+}
+
+.border {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    &.top {
+        border-top: 1px solid $border-colour;
+        padding-top: 15px;
+    }
+
+    &.bottom {
+        border-bottom: 1px solid $border-colour;
+        padding-bottom: 15px;
+    }
+}
+
+small {
+    font-size: 70%;
+}
+
+.flex {
+    display: flex;
+
+    &.center {
+        align-items: center;
+    }
+}
+
+.pad30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.alert-success {
+    border-color: #28a197;
+    background-color: #eaf6f5;
+}
+// Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
